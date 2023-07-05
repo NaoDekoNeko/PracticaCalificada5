@@ -1,0 +1,15 @@
+<h1>Hola fans de CC3S2!</h1>
+<p>
+Estamos resolviendo una tarea de spring boot
+</p>
+
+<ul>
+    {{#videos}}
+        <li>{{name}}</li>
+    {{/videos}}
+</ul>
+
+<form action="/nuevo-video" method="post">
+    <input type="text" name="name">
+    <button type="submit">Submit</button>
+</form>
